@@ -12,7 +12,7 @@
         <!--NewsFun-->
         <scene sceneID="cML-SN-muA">
             <objects>
-                <tableViewController id="uFa-0v-P4B" sceneMemberID="viewController">
+                <tableViewController id="uFa-0v-P4B" customClass="ArticleTableViewController" customModule="NewsFun" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jNK-m2-ia8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="0.80000000000000004" y="1.3493253373313345"/>
         </scene>
-        <!--View Controller-->
+        <!--Article Web View Controller-->
         <scene sceneID="kos-iT-4Hm">
             <objects>
-                <viewController id="mAf-Qf-PcX" sceneMemberID="viewController">
+                <viewController id="mAf-Qf-PcX" customClass="ArticleWebViewController" customModule="NewsFun" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AkD-YV-xXk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
